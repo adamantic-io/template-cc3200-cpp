@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cc3200tool -p /dev/ttyUSB1 --sop2 ~dtr --reset prompt write_file ./exe/myproject.bin /sys/mcuimg.bin
+
