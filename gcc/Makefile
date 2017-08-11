@@ -36,18 +36,12 @@
 # VERBOSE
 # -------
 # Set to `1` if you want verbose output from the build script
-VERBOSE=1
+VERBOSE=
 
 # DEBUG
 # -----
 # Set to `1` if you want a debug-enabled build
-DEBUG=1
-
-# CC3200_SDK_ROOT
-# -------
-# Set this to the directory where the CC-3200 SDK is installed
-# Currently supported version of the SDK : 1.2.0
-CC3200_SDK_ROOT=/opt/cc3200-sdk
+DEBUG=
 
 # USE FLAGS
 # ---------
@@ -59,6 +53,12 @@ USE_SIMPLELINK=1
 USE_WIRELESS=1
 USE_LED=1
 USE_MQTT=1
+
+# CC3200_SDK_ROOT
+# -------
+# Set this to the directory where the CC-3200 SDK is installed
+# Currently supported version of the SDK : 1.2.0
+CC3200_SDK_ROOT=/opt/cc3200-sdk
 
 # FREERTOS_SOURCE
 # -------
