@@ -138,7 +138,7 @@ int main()
         WC::wlan_connect(WIRELESS_SSID, WIRELESS_PWD, WC::WPA_WPA2);
 
         while (true) {
-            taskYIELD();
+            vTaskDelay(1000 / portTICK_PERIOD_MS);
         }
     }
 #endif
