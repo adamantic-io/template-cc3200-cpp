@@ -89,8 +89,8 @@ do                                                      \
     extern "C" {
 #endif
 
-unsigned long avail_heap(); // very platform-specific,
-                            // defined in the compiler startup file.
+extern unsigned long avail_heap(); // very platform-specific,
+                                   // defined in the compiler startup file.
 
 #ifdef __cplusplus
     }
