@@ -36,7 +36,7 @@
      file. Here we work around this problem by using nesting, so we open an
      extern "C" before including "simplelink.h", and then test the specific
      SimpleLink version to check if we need to close it.
-   TODO: keep track of future SimpleLink versions
+   NOTE: this is solved in version 1.0.1.11 of SimpleLink (SDK 1.3.0 for CC3200)
  */
 extern "C" {
 #include "simplelink.h"

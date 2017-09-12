@@ -57,7 +57,7 @@ USE_MQTT=1
 # CC3200_SDK_ROOT
 # -------
 # Set this to the directory where the CC-3200 SDK is installed
-# Currently supported version of the SDK : 1.2.0
+# Currently supported version(s) of the SDK : 1.2.0, 1.3.0
 CC3200_SDK_ROOT=/opt/cc3200-sdk
 
 # FREERTOS_SOURCE
